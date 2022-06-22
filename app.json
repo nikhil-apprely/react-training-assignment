@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "react-training",
+    "slug": "react-training",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "react-training"
+}
