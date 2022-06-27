@@ -25,9 +25,15 @@ export default function FlatListScreen() {
     <View style={styles.container}>
       <FlatList
         data={data}
-        renderItem={({ item }) => item.title}
         keyExtractor={(item, index) => {
           return index.toString();
+        }}
+        renderItem={({ item }) => {
+          return (
+            <View>
+              <Text>{item.title}</Text>
+            </View>
+          );
         }}
       />
     </View>

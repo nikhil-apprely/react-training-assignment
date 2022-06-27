@@ -1,7 +1,9 @@
 import { View, Text, StyleSheet, TextInput } from "react-native";
 import React from "react-native";
+import { useState } from "react";
 
 export default function InputText({ setText }) {
+  const [text, onChangeText] = useState("Please type here!");
   return (
     <View>
       <Text> Component Name: </Text>
